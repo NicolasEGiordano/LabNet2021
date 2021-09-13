@@ -1,0 +1,2 @@
+C:\Users\phine\source\repos\LabNet2021\tp2\TP2\obj\Debug\Tp2.csproj.AssemblyReference.cache
+C:\Users\phine\source\repos\LabNet2021\tp2\TP2\obj\Debug\Tp2.csproj.CoreCompileInputs.cache
