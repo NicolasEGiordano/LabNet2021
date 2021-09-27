@@ -1,0 +1,27 @@
+.form {
+    border-color: black;
+    font-family: cursive;
+}
+
+#contact {
+    background-color: gray;
+    border-style: dotted;
+    border: 5px cornflowerblue;
+    text-decoration: linen;
+}
+
+#contact2 {
+    background-color: gray;
+    border-style: dotted;
+    border: 5px cornflowerblue;
+    text-decoration: linen;
+}
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}

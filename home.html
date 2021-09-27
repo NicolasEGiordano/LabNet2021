@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP6</title>
+    <script src="jquery.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #age {
+        text-align: top;
+        width: 100px;
+        height: 20px;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <h1 class="text-center mb-3">Contacto</h1>
+    Completa con tus datos.
+    <script src="function.js"></script>
+    <form action="#">
+        <a ref="function.js" class="btn btn-primary">
+            <div class="row mb-1" id="contact">
+                <div class="col">
+                    <label class="form">Nombre</label>
+                    <input type="text" name="firstName" class="form-control" placeholder="Ingrese su nombre" aria-label="First name" required>
+
+                </div>
+                <div class="col">
+                    <label class="form">Apellido</label>
+                    <input type="text" name="lastName" class="form-control" placeholder="Ingrese su apellido" aria-label="Last name" required>
+                </div>
+                <div class="col">
+                    <label class="form">Edad</label>
+                    <input type="number" name="age" class="form-control" id="age" placeholder="Ingrese su edad" aria-label="age" required>
+                </div>
+            </div>
+        </a>
+        <div class="radio" id="contact2">
+            <p>Genero:</p>
+
+            <div>
+                <input type="radio" id="masculino" name="sex" value="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+
+            <div>
+                <input type="radio" id="femenino" name="sex" value="femenino">
+                <label for="femenino">Femenino</label>
+            </div>
+
+            <div>
+                <input type="radio" id="otro" name="sex" value="otro">
+                <label for="otro">Otro</label>
+            </div>
+        </div>
+        <div class="col">
+            <label class="form">Empresa</label>
+            <input type="text" name="company" class="form-control" id="company" placeholder="Ingrese su empresa" aria-label="empresa" required>
+        </div>
+    </form>
+
+    <button id="user-data-next-button" class="btn my-button" enable="true">Enviar</button>
+</body>
+
+</html>
